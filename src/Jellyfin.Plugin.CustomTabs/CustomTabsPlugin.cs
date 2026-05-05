@@ -9,7 +9,7 @@ namespace Jellyfin.Plugin.CustomTabs;
 public class CustomTabsPlugin : BasePlugin<PluginConfiguration>, IHasPluginConfiguration, IHasWebPages
 {
     public override Guid Id => Guid.Parse("fbacd0b6-fd46-4a05-b0a4-2045d6a135b0");
-    public override string Name => "Custom Tabs";
+    public override string Name => "Custom Tabs: With Effects!";
     
     public static CustomTabsPlugin Instance { get; private set; } = null!;
     
